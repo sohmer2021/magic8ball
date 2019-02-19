@@ -16,12 +16,45 @@ public class Main {
 	* don't count on it
 	* outlook not so good*/
 
+		/*int firstValue = 1-10;
+		int secondValue = 11-20;
+		int thirdValue = 21-30;
+		int fourthValue = 31-40;
+		int fifthValue = 41-50;
+		int sixthValue = 51- 60;
+		int seventhValue = 61-70;
+		int eighthValue = 71-80;
+		int ninethValue= 81-90;
+		int tenthValue = 91-100;*/
 		Scanner keyboard;
-		int firstValue;
-		int secondValue;
-		String input;
+
+		int input;
 
 		keyboard = new Scanner(System.in);
-		
+		System.out.println("Pick a number between 1 and 100");
+		input = keyboard.nextInt();
+
+		if(input >=1 && input <=10){
+
+		}
+		else if (input >=11 && input <=20){
+
+		}
+		else if (input >=21 && input <=30){
+
+		}
+		else if (input >=31 && input <=40){
+
+		}
+		else if (input >=41 && input <=50){
+
+		}
+		else if (input >=51 && input <=60){
+
+		}
+		else if (input >=61 && input <=70){
+
+		}
+		else if (input)
     }
 }
