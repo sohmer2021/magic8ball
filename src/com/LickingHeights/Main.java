@@ -5,16 +5,16 @@ import java.util.Scanner;
 public class Main {
 
 	public static void main(String[] args) {
-		/*Without a doubt
-		 * Absolutely
-		 * The answer is yes
+		/*Without a doubt x
+		 * Absolutely x
+		 * The answer is yes x
 		 * The outlook is good
-		 * signs point to yes
+		 * signs point to yes x
 		 * the answer is no
-		 * doubtful
-		 * uncertain
-		 * don't count on it
-		 * outlook not so good*/
+		 * doubtful x
+		 * uncertain x
+		 * don't count on it x
+		 * outlook not so good x*/
 
 		/*int firstValue = 1-10;
 		int secondValue = 11-20;
@@ -24,7 +24,7 @@ public class Main {
 		int sixthValue = 51- 60;
 		int seventhValue = 61-70;
 		int eighthValue = 71-80;
-		int ninethValue= 81-90;
+		int ninthValue= 81-90;
 		int tenthValue = 91-100;*/
 		Scanner keyboard;
 
@@ -37,22 +37,23 @@ public class Main {
 		if (input >= 1 && input <= 10) {
 
 		} else if (input >= 11 && input <= 20) {
-		System.out.println("Without a doubt")
+		System.out.println("Without a doubt");
 		} else if (input >= 21 && input <= 30) {
-		System.out.println("Outlook not so good")
+		System.out.println("Outlook not so good");
 		} else if (input >= 31 && input <= 40) {
-		System.out.println("Absolutely")
+		System.out.println("Absolutely");
 		} else if (input >= 41 && input <= 50) {
-		System.out.println("The answer is yes")
+		System.out.println("The answer is yes");
 		} else if (input >= 51 && input <= 60) {
-
+		System.out.println("Don't count on it");
 		} else if (input >= 61 && input <= 70) {
-
+		System.out.println("Signs point to yes");
 		} else if (input >= 71 && input <= 80) {
-
+		System.out.println("Doubtful");
 		} else if (input >= 81 && input <= 90) {
-
+		System.out.println("Uncertain");
 		} else if (input >= 91 && input <= 100) {
+		System.out.println("The outlook is good");
 		}
 	}
 }
