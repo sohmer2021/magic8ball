@@ -8,9 +8,9 @@ public class Main {
 		/*Without a doubt x
 		 * Absolutely x
 		 * The answer is yes x
-		 * The outlook is good
+		 * The outlook is good x
 		 * signs point to yes x
-		 * the answer is no
+		 * the answer is no x
 		 * doubtful x
 		 * uncertain x
 		 * don't count on it x
@@ -35,7 +35,7 @@ public class Main {
 		input = keyboard.nextInt();
 
 		if (input >= 1 && input <= 10) {
-
+		System.out.println("The answer is no");
 		} else if (input >= 11 && input <= 20) {
 		System.out.println("Without a doubt");
 		} else if (input >= 21 && input <= 30) {
